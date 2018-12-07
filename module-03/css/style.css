@@ -1,3 +1,7 @@
+body {margin: 0;}
+  /*  div{background: white;
+width: 1200px;
+height:2080px;} */
 ul {font-size: 0px;
     padding-left: 0;}
     .page-header-container {
@@ -13,19 +17,13 @@ ul {font-size: 0px;
     font-size: 0px;
 }
 
-.img {
+.img{
     display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-.menu {
-    text-align: center;
-    vertical-align: middle;
-}
-.menu a:hover{
-        color:skyblue;
-}
+.menu {text-align: center;}
 .menu-item {
     font-family: 'Playfair Display', serif;
     font-size: 14px;
@@ -39,24 +37,24 @@ ul {font-size: 0px;
     text-align: center;
     margin-right: 60px;
 }
-.menu-item:last-child{margin-right: 0;}
+a { }
+.menu-item:last-child {margin-right: 0;}
 .menu-link{
-    padding: 14px;
-    color: grey;
+    color: black;
     display: block;
     text-decoration: none;
 }
-li {
-    }
-.box-title {
+.menu-link:hover {color: skyblue;}
+.box {
     width: 420px;
-    display: inline-block;
-    margin-right: 60px;
-    margin-bottom: 135px;
+display: inline-block;
+margin-right: 60px;
+margin-bottom: 135px;
 }
-.box:nth-child(2n) {margin-right: 0px;
-}
-.visually-hidden{
+.box-5{margin-bottom: 0px;}
+.box-6{margin-bottom: 0px;}
+.box:nth-child(2n) {margin-right: 0px;}
+.box-subtitle{
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 14px;
     opacity: 0.3;
@@ -92,6 +90,7 @@ button{
     width: 165px;
     height: 60px;
     text-align: center;
-    margin: 0 auto 75px auto;
     text-shadow: none;
 }
+section{padding-bottom: 75px;}
+.btn-footer:hover{box-shadow: black;}
