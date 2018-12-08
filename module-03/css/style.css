@@ -14,14 +14,14 @@ ul {font-size: 0px;
     margin: 0 auto;
     padding-top: 0px;
     padding-bottom: 0px;
-    font-size: 0px;
-}
+    }
 
 .img{
     display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
+    margin-bottom: 25px;
 }
 .menu {text-align: center;}
 .menu-item {
@@ -37,7 +37,6 @@ ul {font-size: 0px;
     text-align: center;
     margin-right: 60px;
 }
-a { }
 .menu-item:last-child {margin-right: 0;}
 .menu-link{
     color: black;
@@ -46,21 +45,19 @@ a { }
 }
 .menu-link:hover {color: skyblue;}
 .box {
-    width: 420px;
+width: 420px;
 display: inline-block;
 margin-right: 60px;
 margin-bottom: 135px;
 }
-.box-5{margin-bottom: 0px;}
-.box-6{margin-bottom: 0px;}
-.box:nth-child(2n) {margin-right: 0px;}
+.box:nth-child(even){margin-right: 0px;}
+.box:nth-child(n+5){margin-bottom: 50px;}
 .box-subtitle{
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 14px;
     opacity: 0.3;
     text-transform: uppercase;
-    padding-top: 20px;
-    margin: 0px;
+    margin-bottom: 20px;
 }
 .box-title{
     width: 420px;
@@ -69,17 +66,14 @@ margin-bottom: 135px;
     color: gray;
     text-transform: capitalize;
     text-align: left;
-    padding-top: 20px;
-    margin: 0px;
+    margin-bottom: 30px;
 }
 .box-content{
     font-family: 'Playfair Display', serif;
     font-size: 14px;
     color: gray;
-    margin: 0px;
-    padding-top: 20px;
 }
-button{
+.btn-footer{
     display: block;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
@@ -87,10 +81,11 @@ button{
     color: gray;
     border-color: gray;
     box-sizing: border-box;
-    width: 165px;
-    height: 60px;
     text-align: center;
     text-shadow: none;
+    margin: 0 auto;
+    }
+.list {padding-bottom: 55px;}
+.btn-footer:hover {background-color: black;
+color: white;
 }
-section{padding-bottom: 75px;}
-.btn-footer:hover{box-shadow: black;}

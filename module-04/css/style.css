@@ -1,0 +1,33 @@
+/* .box{
+    width: 40%;
+    padding: 1rem;
+    margin: auto;
+    height: 200px;
+    background-image:linear-gradient(to left bottom,
+    rgb(128, 128, 255),
+    rgb(128, 128, 255) 50%,
+    rgb(255, 0, 255) 50%,
+    rgb(255, 0, 255));
+    /* hsl (радиус 0/120/240 - красный/зеленый/синий;
+     серость в %; яркость в %) */
+     h1 {
+         text-align: center;
+        }
+       /*  .clearfix::after{content: "";
+        display: block;
+    clear: both;} */
+    .over{overflow: hidden;}
+     .div-img {
+        margin: 0 1rem; 
+        float: left;
+         width: 500px;
+     }
+     .img {
+         width: 100%;
+         height: auto;
+     }
+     .box{
+         height: 150px;
+         background-color: #505;
+         /* clear: left; */
+     }
