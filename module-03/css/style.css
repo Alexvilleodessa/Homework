@@ -16,7 +16,7 @@ ul {font-size: 0px;
     padding-bottom: 0px;
     }
 
-.img-responsive{
+.gallery{
     display: block;
     width: 100%;
     height: auto;
@@ -51,7 +51,7 @@ margin-right: 60px;
 margin-bottom: 135px;
 }
 .box:nth-child(even){margin-right: 0px;}
-.box:nth-child(-n+2){margin-bottom: 0px;}
+.box:last-child(-n+2){margin-bottom: 0px;}
 .box-subtitle{
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 14px;
