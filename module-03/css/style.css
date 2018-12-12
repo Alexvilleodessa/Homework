@@ -99,7 +99,7 @@ margin-bottom: 135px;
     padding: 1rem 1rem;
     margin: 0 auto;
     }
-.list {padding-bottom: 55px;}
+.list {margin-bottom: 55px;}
 .btn-footer:hover {background-color: black;
 color: white;
 }
