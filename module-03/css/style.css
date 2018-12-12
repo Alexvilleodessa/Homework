@@ -30,8 +30,6 @@ ul {font-size: 0px;
     color:gray;
     text-transform: uppercase;
     box-sizing: border-box;
-    width: 100px;
-    height: 50px;
     border: 5px transparent;
     display: inline-block;
     text-align: center;
@@ -44,6 +42,20 @@ ul {font-size: 0px;
     text-decoration: none;
 }
 .menu-link:hover {color: skyblue;}
+.visually-hidden:not(:focus):not(:active), input[type="checkbox"]
+.visually-hidden, input[type="radio"]
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
 .box {
 width: 420px;
 display: inline-block;
@@ -51,17 +63,15 @@ margin-right: 60px;
 margin-bottom: 135px;
 }
 .box:nth-child(even){margin-right: 0px;}
-.box:last-child(-n+2){margin-bottom: 0px;}
+.box:nth-last-child(-n+2){margin-bottom: 0px;}
 .box-subtitle{
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 14px;
-    opacity: 0.3;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 20px;
 }
 .box-title{
-    width: 420px;
     font-family: 'Playfair Display', serif;
     font-size: 29px;
     color: gray;
